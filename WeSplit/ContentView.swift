@@ -1,15 +1,6 @@
-//
-//  ContentView.swift
-//  WeSplit
-//
-//  Created by Work Experience on 02/03/2026.
-//
-
 import SwiftUI
 
 struct ContentView: View {
-    @FocusState private var amountIsFocused: Bool
-    
     @State private var checkAmount = 0.0
     @State private var numberOfPeople = 2
     @State private var tipPercentage = 20
@@ -29,8 +20,6 @@ struct ContentView: View {
     private let currencyFormatter: NumberFormatter = {
         let formatter = NumberFormatter()
         formatter.locale = Locale.current
-//        formatter.numberStyle = .currency
-//        formatter.currencyCode = Locale.current.currency?.identifier ?? "GBP"
         formatter.zeroSymbol = ""
         formatter.minimumFractionDigits = 2
         formatter.maximumFractionDigits = 2
@@ -39,14 +28,13 @@ struct ContentView: View {
     
     var body: some View {
             Form {
+        
                 Section {
                     TextField("Amount (£)",
                               value: $checkAmount,
-//                              format: .currency(code: Locale.current.currency?.identifier ?? "GBP")
                               formatter:currencyFormatter
                     )
                         .keyboardType(.decimalPad)
-                        .focused($amountIsFocused)
                     
                     Picker("Number of people", selection: $numberOfPeople) {
                         ForEach(2..<100) {
@@ -64,9 +52,9 @@ struct ContentView: View {
                     .pickerStyle(.segmented)
                 }
                 
-                Section {
+                Section("Amount per person:") {
                     Text(totalPerPerson, format: .currency(code: Locale.current.currency?.identifier ?? "USD"))
-                }
+            }
         }
     }
 }
