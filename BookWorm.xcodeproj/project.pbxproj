@@ -6,6 +6,23 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B5422D252F5835780062F434 /* Mystery@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5422D1C2F5835780062F434 /* Mystery@2x.jpg */; };
+		B5422D262F5835780062F434 /* Romance@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5422D202F5835780062F434 /* Romance@2x.jpg */; };
+		B5422D272F5835780062F434 /* Poetry@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5422D1F2F5835780062F434 /* Poetry@3x.jpg */; };
+		B5422D282F5835780062F434 /* Fantasy@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5422D162F5835780062F434 /* Fantasy@2x.jpg */; };
+		B5422D292F5835780062F434 /* Kids@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5422D1A2F5835780062F434 /* Kids@2x.jpg */; };
+		B5422D2A2F5835780062F434 /* Horror@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5422D192F5835780062F434 /* Horror@3x.jpg */; };
+		B5422D2B2F5835780062F434 /* Kids@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5422D1B2F5835780062F434 /* Kids@3x.jpg */; };
+		B5422D2C2F5835780062F434 /* Fantasy@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5422D172F5835780062F434 /* Fantasy@3x.jpg */; };
+		B5422D2D2F5835780062F434 /* Romance@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5422D212F5835780062F434 /* Romance@3x.jpg */; };
+		B5422D2E2F5835780062F434 /* Thriller@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5422D232F5835780062F434 /* Thriller@3x.jpg */; };
+		B5422D2F2F5835780062F434 /* Thriller@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5422D222F5835780062F434 /* Thriller@2x.jpg */; };
+		B5422D302F5835780062F434 /* Mystery@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5422D1D2F5835780062F434 /* Mystery@3x.jpg */; };
+		B5422D312F5835780062F434 /* Horror@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5422D182F5835780062F434 /* Horror@2x.jpg */; };
+		B5422D322F5835780062F434 /* Poetry@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5422D1E2F5835780062F434 /* Poetry@2x.jpg */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		B5E8D08B2F55931200C94AB0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,15 +41,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B5E8D07D2F55930A00C94AB0 /* WeSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeSplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5E8D08A2F55931200C94AB0 /* WeSplitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeSplitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5E8D0942F55931200C94AB0 /* WeSplitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeSplitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5422D162F5835780062F434 /* Fantasy@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Fantasy@2x.jpg"; sourceTree = "<group>"; };
+		B5422D172F5835780062F434 /* Fantasy@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Fantasy@3x.jpg"; sourceTree = "<group>"; };
+		B5422D182F5835780062F434 /* Horror@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Horror@2x.jpg"; sourceTree = "<group>"; };
+		B5422D192F5835780062F434 /* Horror@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Horror@3x.jpg"; sourceTree = "<group>"; };
+		B5422D1A2F5835780062F434 /* Kids@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Kids@2x.jpg"; sourceTree = "<group>"; };
+		B5422D1B2F5835780062F434 /* Kids@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Kids@3x.jpg"; sourceTree = "<group>"; };
+		B5422D1C2F5835780062F434 /* Mystery@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mystery@2x.jpg"; sourceTree = "<group>"; };
+		B5422D1D2F5835780062F434 /* Mystery@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mystery@3x.jpg"; sourceTree = "<group>"; };
+		B5422D1E2F5835780062F434 /* Poetry@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Poetry@2x.jpg"; sourceTree = "<group>"; };
+		B5422D1F2F5835780062F434 /* Poetry@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Poetry@3x.jpg"; sourceTree = "<group>"; };
+		B5422D202F5835780062F434 /* Romance@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Romance@2x.jpg"; sourceTree = "<group>"; };
+		B5422D212F5835780062F434 /* Romance@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Romance@3x.jpg"; sourceTree = "<group>"; };
+		B5422D222F5835780062F434 /* Thriller@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Thriller@2x.jpg"; sourceTree = "<group>"; };
+		B5422D232F5835780062F434 /* Thriller@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Thriller@3x.jpg"; sourceTree = "<group>"; };
+		B5E8D07D2F55930A00C94AB0 /* BookWorm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookWorm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5E8D08A2F55931200C94AB0 /* BookWormTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookWormTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5E8D0942F55931200C94AB0 /* BookWormUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookWormUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		B5E8D07F2F55930B00C94AB0 /* WeSplit */ = {
+		B5E8D07F2F55930B00C94AB0 /* BookWorm */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = WeSplit;
+			path = BookWorm;
 			sourceTree = "<group>";
 		};
 		B5E8D08D2F55931200C94AB0 /* WeSplitTests */ = {
@@ -72,22 +103,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B5422D242F5835780062F434 /* project11-files */ = {
+			isa = PBXGroup;
+			children = (
+				B5422D162F5835780062F434 /* Fantasy@2x.jpg */,
+				B5422D172F5835780062F434 /* Fantasy@3x.jpg */,
+				B5422D182F5835780062F434 /* Horror@2x.jpg */,
+				B5422D192F5835780062F434 /* Horror@3x.jpg */,
+				B5422D1A2F5835780062F434 /* Kids@2x.jpg */,
+				B5422D1B2F5835780062F434 /* Kids@3x.jpg */,
+				B5422D1C2F5835780062F434 /* Mystery@2x.jpg */,
+				B5422D1D2F5835780062F434 /* Mystery@3x.jpg */,
+				B5422D1E2F5835780062F434 /* Poetry@2x.jpg */,
+				B5422D1F2F5835780062F434 /* Poetry@3x.jpg */,
+				B5422D202F5835780062F434 /* Romance@2x.jpg */,
+				B5422D212F5835780062F434 /* Romance@3x.jpg */,
+				B5422D222F5835780062F434 /* Thriller@2x.jpg */,
+				B5422D232F5835780062F434 /* Thriller@3x.jpg */,
+			);
+			path = "project11-files";
+			sourceTree = "<group>";
+		};
 		B5E8D0742F55930A00C94AB0 = {
 			isa = PBXGroup;
 			children = (
-				B5E8D07F2F55930B00C94AB0 /* WeSplit */,
+				B5E8D07F2F55930B00C94AB0 /* BookWorm */,
 				B5E8D08D2F55931200C94AB0 /* WeSplitTests */,
 				B5E8D0972F55931200C94AB0 /* WeSplitUITests */,
 				B5E8D07E2F55930A00C94AB0 /* Products */,
+				B5422D242F5835780062F434 /* project11-files */,
 			);
 			sourceTree = "<group>";
 		};
 		B5E8D07E2F55930A00C94AB0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B5E8D07D2F55930A00C94AB0 /* WeSplit.app */,
-				B5E8D08A2F55931200C94AB0 /* WeSplitTests.xctest */,
-				B5E8D0942F55931200C94AB0 /* WeSplitUITests.xctest */,
+				B5E8D07D2F55930A00C94AB0 /* BookWorm.app */,
+				B5E8D08A2F55931200C94AB0 /* BookWormTests.xctest */,
+				B5E8D0942F55931200C94AB0 /* BookWormUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +148,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B5E8D07C2F55930A00C94AB0 /* WeSplit */ = {
+		B5E8D07C2F55930A00C94AB0 /* BookWorm */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B5E8D09E2F55931200C94AB0 /* Build configuration list for PBXNativeTarget "WeSplit" */;
+			buildConfigurationList = B5E8D09E2F55931200C94AB0 /* Build configuration list for PBXNativeTarget "BookWorm" */;
 			buildPhases = (
 				B5E8D0792F55930A00C94AB0 /* Sources */,
 				B5E8D07A2F55930A00C94AB0 /* Frameworks */,
@@ -108,18 +161,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				B5E8D07F2F55930B00C94AB0 /* WeSplit */,
+				B5E8D07F2F55930B00C94AB0 /* BookWorm */,
 			);
-			name = WeSplit;
+			name = BookWorm;
 			packageProductDependencies = (
 			);
 			productName = WeSplit;
-			productReference = B5E8D07D2F55930A00C94AB0 /* WeSplit.app */;
+			productReference = B5E8D07D2F55930A00C94AB0 /* BookWorm.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B5E8D0892F55931200C94AB0 /* WeSplitTests */ = {
+		B5E8D0892F55931200C94AB0 /* BookWormTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B5E8D0A12F55931200C94AB0 /* Build configuration list for PBXNativeTarget "WeSplitTests" */;
+			buildConfigurationList = B5E8D0A12F55931200C94AB0 /* Build configuration list for PBXNativeTarget "BookWormTests" */;
 			buildPhases = (
 				B5E8D0862F55931200C94AB0 /* Sources */,
 				B5E8D0872F55931200C94AB0 /* Frameworks */,
@@ -133,16 +186,16 @@
 			fileSystemSynchronizedGroups = (
 				B5E8D08D2F55931200C94AB0 /* WeSplitTests */,
 			);
-			name = WeSplitTests;
+			name = BookWormTests;
 			packageProductDependencies = (
 			);
 			productName = WeSplitTests;
-			productReference = B5E8D08A2F55931200C94AB0 /* WeSplitTests.xctest */;
+			productReference = B5E8D08A2F55931200C94AB0 /* BookWormTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B5E8D0932F55931200C94AB0 /* WeSplitUITests */ = {
+		B5E8D0932F55931200C94AB0 /* BookWormUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B5E8D0A42F55931200C94AB0 /* Build configuration list for PBXNativeTarget "WeSplitUITests" */;
+			buildConfigurationList = B5E8D0A42F55931200C94AB0 /* Build configuration list for PBXNativeTarget "BookWormUITests" */;
 			buildPhases = (
 				B5E8D0902F55931200C94AB0 /* Sources */,
 				B5E8D0912F55931200C94AB0 /* Frameworks */,
@@ -156,11 +209,11 @@
 			fileSystemSynchronizedGroups = (
 				B5E8D0972F55931200C94AB0 /* WeSplitUITests */,
 			);
-			name = WeSplitUITests;
+			name = BookWormUITests;
 			packageProductDependencies = (
 			);
 			productName = WeSplitUITests;
-			productReference = B5E8D0942F55931200C94AB0 /* WeSplitUITests.xctest */;
+			productReference = B5E8D0942F55931200C94AB0 /* BookWormUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +239,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B5E8D0782F55930A00C94AB0 /* Build configuration list for PBXProject "WeSplit" */;
+			buildConfigurationList = B5E8D0782F55930A00C94AB0 /* Build configuration list for PBXProject "BookWorm" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +253,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B5E8D07C2F55930A00C94AB0 /* WeSplit */,
-				B5E8D0892F55931200C94AB0 /* WeSplitTests */,
-				B5E8D0932F55931200C94AB0 /* WeSplitUITests */,
+				B5E8D07C2F55930A00C94AB0 /* BookWorm */,
+				B5E8D0892F55931200C94AB0 /* BookWormTests */,
+				B5E8D0932F55931200C94AB0 /* BookWormUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -212,6 +265,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5422D252F5835780062F434 /* Mystery@2x.jpg in Resources */,
+				B5422D262F5835780062F434 /* Romance@2x.jpg in Resources */,
+				B5422D272F5835780062F434 /* Poetry@3x.jpg in Resources */,
+				B5422D282F5835780062F434 /* Fantasy@2x.jpg in Resources */,
+				B5422D292F5835780062F434 /* Kids@2x.jpg in Resources */,
+				B5422D2A2F5835780062F434 /* Horror@3x.jpg in Resources */,
+				B5422D2B2F5835780062F434 /* Kids@3x.jpg in Resources */,
+				B5422D2C2F5835780062F434 /* Fantasy@3x.jpg in Resources */,
+				B5422D2D2F5835780062F434 /* Romance@3x.jpg in Resources */,
+				B5422D2E2F5835780062F434 /* Thriller@3x.jpg in Resources */,
+				B5422D2F2F5835780062F434 /* Thriller@2x.jpg in Resources */,
+				B5422D302F5835780062F434 /* Mystery@3x.jpg in Resources */,
+				B5422D312F5835780062F434 /* Horror@2x.jpg in Resources */,
+				B5422D322F5835780062F434 /* Poetry@2x.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,12 +325,12 @@
 /* Begin PBXTargetDependency section */
 		B5E8D08C2F55931200C94AB0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B5E8D07C2F55930A00C94AB0 /* WeSplit */;
+			target = B5E8D07C2F55930A00C94AB0 /* BookWorm */;
 			targetProxy = B5E8D08B2F55931200C94AB0 /* PBXContainerItemProxy */;
 		};
 		B5E8D0962F55931200C94AB0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B5E8D07C2F55930A00C94AB0 /* WeSplit */;
+			target = B5E8D07C2F55930A00C94AB0 /* BookWorm */;
 			targetProxy = B5E8D0952F55931200C94AB0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -474,7 +541,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeSplit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WeSplit";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BookWorm.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BookWorm";
 			};
 			name = Debug;
 		};
@@ -496,7 +563,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeSplit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WeSplit";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BookWorm.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BookWorm";
 			};
 			name = Release;
 		};
@@ -543,7 +610,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B5E8D0782F55930A00C94AB0 /* Build configuration list for PBXProject "WeSplit" */ = {
+		B5E8D0782F55930A00C94AB0 /* Build configuration list for PBXProject "BookWorm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B5E8D09C2F55931200C94AB0 /* Debug */,
@@ -552,7 +619,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B5E8D09E2F55931200C94AB0 /* Build configuration list for PBXNativeTarget "WeSplit" */ = {
+		B5E8D09E2F55931200C94AB0 /* Build configuration list for PBXNativeTarget "BookWorm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B5E8D09F2F55931200C94AB0 /* Debug */,
@@ -561,7 +628,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B5E8D0A12F55931200C94AB0 /* Build configuration list for PBXNativeTarget "WeSplitTests" */ = {
+		B5E8D0A12F55931200C94AB0 /* Build configuration list for PBXNativeTarget "BookWormTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B5E8D0A22F55931200C94AB0 /* Debug */,
@@ -570,7 +637,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B5E8D0A42F55931200C94AB0 /* Build configuration list for PBXNativeTarget "WeSplitUITests" */ = {
+		B5E8D0A42F55931200C94AB0 /* Build configuration list for PBXNativeTarget "BookWormUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B5E8D0A52F55931200C94AB0 /* Debug */,

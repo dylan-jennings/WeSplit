@@ -1,17 +1,12 @@
-//
-//  WeSplitApp.swift
-//  WeSplit
-//
-//  Created by Work Experience on 02/03/2026.
-//
-
+import SwiftData
 import SwiftUI
 
 @main
-struct WeSplitApp: App {
+struct BookwormApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
         }
+        .modelContainer(for: Book.self)
     }
 }
