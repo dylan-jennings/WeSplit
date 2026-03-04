@@ -36,7 +36,15 @@ struct DetailView: View {
 
             Text(book.review)
                 .multilineTextAlignment(.center)
-
+                .padding(.horizontal)
+            
+            Spacer()
+            Spacer()
+            Spacer()
+            
+            Text("Reviewed: \(Date.now, format: .dateTime.day().month().year())")
+                .foregroundStyle(.secondary)
+            
         }
         .alert("Delete book", isPresented: $showingDeleteAlert) {
             Button("Delete", role: .destructive, action: deleteBook)
@@ -61,7 +69,7 @@ struct DetailView: View {
     do {
         let config = ModelConfiguration(isStoredInMemoryOnly: true)
         let container = try ModelContainer(for: Book.self, configurations: config)
-        let example = Book(title: "Test Book", author: "Test Author", genre: "Fantasy", review: "This was a great book; I really enjoyed it.", rating: 4)
+        let example = Book(title: "Test Book", author: "Test Author", genre: "Fantasy", review: "This was a great book; I really enjoyed it. qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq", rating: 4)
 
         return DetailView(book: example)
             .modelContainer(container)

@@ -10,6 +10,8 @@ struct AddBookView: View {
     @State private var rating = 3
     @State private var genre = "Fantasy"
     @State private var review = ""
+    @State private var favourite = false
+    
     
     @State private var showAlert = false
     
@@ -43,7 +45,7 @@ struct AddBookView: View {
 
                         else {
                             
-                            let newBook = Book(title: title, author: author, genre: genre, review: review, rating: rating)
+                            let newBook = Book(title: title, author: author, genre: genre, review: review, rating: rating, favourite: favourite)
                             modelContext.insert(newBook)
                             dismiss()
                         }
@@ -57,6 +59,7 @@ struct AddBookView: View {
                     }
                 }
                 .navigationTitle("Add Book")
+                
             }
         }
     }
