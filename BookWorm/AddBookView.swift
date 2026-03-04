@@ -45,7 +45,7 @@ struct AddBookView: View {
 
                         else {
                             
-                            let newBook = Book(title: title, author: author, genre: genre, review: review, rating: rating, favourite: favourite)
+                            let newBook = Book(title: title, author: author, genre: genre, review: review, rating: rating,)
                             modelContext.insert(newBook)
                             dismiss()
                         }
